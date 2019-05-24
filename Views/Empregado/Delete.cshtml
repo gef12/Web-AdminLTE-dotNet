@@ -1,0 +1,61 @@
+﻿<div class="content-wrapper">
+    <section class="content-header">
+        <h1>
+            Dashboard
+            <small>Version 2.0</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active">Dashboard</li>
+        </ol>
+    </section>
+
+        <!-- Main content -->
+        <section class="content">
+            @model Web_AdminLTE.Models.Empregado
+
+            @{
+                ViewData["Title"] = "Delete";
+            }
+
+            <h1>Deletar</h1>
+
+            <h3>Voce tem certeza que deseja Deletar?</h3>
+            <div>
+                <h4>Empregado</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.NameCompleto)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.NameCompleto)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.EmpCode)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.EmpCode)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Posicao)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Posicao)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.LocalizacaoTrabalho)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.LocalizacaoTrabalho)
+                    </dd>
+                </dl>
+
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="EmpregadoId" />
+                    <input type="submit" value="Delete" class="btn btn-danger" /> |
+                    <a asp-action="Index">Voltar</a>
+                </form>
+            </div>
+        </section>
+</div>

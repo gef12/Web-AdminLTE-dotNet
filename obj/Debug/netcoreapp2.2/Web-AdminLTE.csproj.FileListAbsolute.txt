@@ -58,3 +58,8 @@ C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\We
 C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\Web-AdminLTE.dll
 C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\Web-AdminLTE.pdb
 C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\Web-AdminLTE.csproj.CopyComplete
+C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\Razor\Views\Empregado\AddOrEdit.g.cshtml.cs
+C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\Razor\Views\Empregado\Delete.g.cshtml.cs
+C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\Razor\Views\Empregado\Details.g.cshtml.cs
+C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\Razor\Views\Empregado\Edit.g.cshtml.cs
+C:\Users\Acer\Desktop\.NET dotNet\Web-AdminLTE-dotNet\obj\Debug\netcoreapp2.2\Razor\Views\Empregado\Index.g.cshtml.cs
